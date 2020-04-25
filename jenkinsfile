@@ -7,6 +7,10 @@ def tools = new org.devops.tools()
 String workspace = "/opt/jenkins/workspace"
 //Pipeline
 //https://zeyangli.github.io/chapter5/2/
+
+//调用var下的groovy
+hello()
+
 pipeline {
     //agent any
     agent {
