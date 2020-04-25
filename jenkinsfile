@@ -28,6 +28,9 @@ pipeline {
     //为流水线运行时设置项目相关的参数,同在项目中的参数化构建中 设置的效果一样
     //parameters { string(name: 'DEPLOY_ENV', defaultValue: 'staging', description: '') }
 
+    // parameters {
+    // choice choices: ['1', '2', '3'], description: '', name: 'a'
+    // }
 
     options {
         timestamps() //日志会有时间
